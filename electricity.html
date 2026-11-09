@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Electricity & Electromagnetism | Falisieni Science Hub</title>
+<style>
+:root{--navy:#102544;--blue:#2366a8;--sky:#eaf3fc;--ink:#203047;--muted:#62738a;--line:#d8e3ef;--white:#fff;--gold:#f2c14e}
+*{box-sizing:border-box}body{margin:0;background:#f4f7fb;color:var(--ink);font:16px/1.65 Arial,Helvetica,sans-serif}
+header{background:linear-gradient(130deg,#102544,#174b7e);color:white;padding:42px 20px 36px}
+.wrap{max-width:1050px;margin:auto;padding:0 18px}
+.kicker{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:#c5ddf5;font-weight:bold}
+h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.12;margin:12px 0}
+header p{max-width:720px;color:#e1edf9;margin:12px 0 0}
+.pill{display:inline-block;border:1px solid #8db4dc;border-radius:30px;padding:4px 11px;font-size:.82rem;margin-top:14px}
+nav{background:white;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5;overflow:auto;white-space:nowrap;padding:10px max(18px,calc((100% - 1050px)/2))}
+nav a{color:var(--navy);text-decoration:none;font-weight:bold;font-size:.88rem;margin-right:18px}
+main{max-width:1050px;margin:28px auto;padding:0 18px}
+.intro,.panel,.topic,.practice{background:white;border:1px solid var(--line);border-radius:16px;padding:23px;margin:18px 0;box-shadow:0 3px 14px #173b5b0a}
+h2{color:var(--navy);font-size:1.55rem;margin:0 0 12px}h3{color:#174b7e;margin:22px 0 7px;font-size:1.12rem}
+p{margin:8px 0}ul,ol{padding-left:23px}li{margin:5px 0}
+.formula{background:#edf5fd;border-left:4px solid var(--blue);padding:13px 16px;border-radius:8px;margin:12px 0;font-weight:bold;font-size:1.06rem}
+.note{background:#fff8e6;border-left:4px solid var(--gold);padding:12px 15px;border-radius:8px;margin:12px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.tile{background:#f5f8fc;border:1px solid var(--line);border-radius:12px;padding:14px}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:.95rem}th,td{border:1px solid var(--line);padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb;color:var(--navy)}
+.step{border-left:3px solid #8bb5df;padding:7px 13px;margin:9px 0;background:#f8fbff}
+.small{color:var(--muted);font-size:.9rem}.tag{font-size:.75rem;color:#235b91;font-weight:bold;text-transform:uppercase;letter-spacing:.08em}
+button{background:var(--blue);color:white;border:0;border-radius:9px;padding:10px 15px;font-weight:bold;cursor:pointer;margin-top:8px}
+button:hover{background:var(--navy)}input,textarea{width:100%;padding:10px;border:1px solid #b9cadd;border-radius:8px;font:inherit;margin:5px 0 10px}
+.question{padding:14px 0;border-bottom:1px solid var(--line)}.feedback{font-weight:bold;margin-top:7px}.good{color:#147344}.bad{color:#a33}
+footer{text-align:center;color:var(--muted);padding:28px 15px;font-size:.88rem}
+@media(max-width:600px){.intro,.panel,.topic,.practice{padding:17px}nav a{margin-right:12px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<div class="kicker">Falisieni NCEA Science Exam Rev Hub</div>
+<h1>Electricity &amp;<br>Electromagnetism</h1>
+<p>Physics Level 2 · AS91173</p>
+<span class="pill">Understand the idea · Choose the relationship · Show your working</span>
+</div></header>
+<nav>
+<a href="#map">Topic map</a><a href="#fields">Electric fields</a><a href="#energy">Energy &amp; particles</a><a href="#circuits">DC circuits</a><a href="#magnetism">Magnetism</a><a href="#induction">Induction</a><a href="#practice">Practice</a>
+</nav>
+<main>
+<section class="intro" id="map">
+<h2>Start here: the big picture</h2>
+<p>This topic links electric charges, circuits and magnetic effects. A useful way to approach every calculation is to identify what is happening, select a relationship, convert units, substitute values and explain the direction or energy change.</p>
+<div class="grid">
+<div class="tile"><b>1. Electric fields</b><br>How charges experience forces and transfer energy.</div>
+<div class="tile"><b>2. DC circuits</b><br>How charge flows and how energy is shared.</div>
+<div class="tile"><b>3. Magnetic effects</b><br>How currents and moving charges experience forces.</div>
+<div class="tile"><b>4. Induction</b><br>How movement through a magnetic field can produce voltage.</div>
+</div>
+<div class="note"><b>Calculation habit:</b> write the formula first, convert mm to m and µC/nC to C, then substitute. Include units and a sentence for direction questions.</div>
+</section>
+
+<section class="topic" id="fields">
+<div class="tag">Part 01 · Static electricity</div><h2>Electric fields between parallel plates</h2>
+<h3>What is an electric field?</h3>
+<p>An electric field is a region where a charged object experiences an electric force. Field direction is defined as the direction a positive test charge would be pushed. So field lines leave a positive plate and point towards a negative plate.</p>
+<p>Between two large, parallel plates, the field in the central region is approximately <b>uniform</b>: its strength and direction stay the same. Draw straight, parallel, evenly spaced lines at right angles to the plates. Lines near the outer edges curve slightly.</p>
+<h3>Field strength</h3><div class="formula">E = V ÷ d</div>
+<ul><li><b>E</b> = electric field strength (V m<sup>−1</sup> or N C<sup>−1</sup>)</li><li><b>V</b> = potential difference between plates (V)</li><li><b>d</b> = separation of plates (m)</li></ul>
+<p>A larger voltage makes the field stronger. A larger gap makes it weaker if the voltage stays the same. Moving a charge around inside a uniform field does not change the field strength: the plates create the field.</p>
+<div class="step"><b>Worked example.</b> Plates are 4.0 mm apart with 200 V across them.<br>Convert: d = 4.0 × 10<sup>−3</sup> m.<br>E = 200 ÷ (4.0 × 10<sup>−3</sup>) = <b>5.0 × 10<sup>4</sup> V m<sup>−1</sup></b>.<br>Direction: from the positive plate to the negative plate.</div>
+<h3>Force on a charge</h3><div class="formula">F = qE</div>
+<p><b>F</b> is force in newtons, <b>q</b> is charge in coulombs, and <b>E</b> is field strength. A positive charge is forced along the field; a negative charge is forced opposite the field. The force magnitude increases if either the charge magnitude or field strength increases.</p>
+<div class="step"><b>Worked example.</b> A +3.0 µC charge is placed in a field of 5.0 × 10<sup>4</sup> N C<sup>−1</sup>.<br>q = 3.0 × 10<sup>−6</sup> C.<br>F = qE = (3.0 × 10<sup>−6</sup>)(5.0 × 10<sup>4</sup>) = <b>0.15 N</b>, towards the negative plate.</div>
+<p>The elementary charge has magnitude 1.6 × 10<sup>−19</sup> C. A proton is positive and an electron is negative. For tiny particles, electric force is usually much larger than their weight.</p>
+<h3>Work and electric potential energy</h3><div class="formula">ΔE<sub>p</sub> = qEd &nbsp;&nbsp; and &nbsp;&nbsp; ΔE<sub>p</sub> = qV</div>
+<p>Use qEd when the charge moves a known distance <b>along the field</b>. Use qV when it moves through the full potential difference. A sideways movement at right angles to the field transfers no energy through the electric force.</p>
+<p>When a charge moves in the direction of its electric force, electric potential energy decreases and kinetic energy increases. Moving it against the force requires external work and increases its electric potential energy.</p>
+<div class="note">Voltage is energy transferred per coulomb: <b>V = ΔE ÷ q</b>. One volt equals one joule per coulomb.</div>
+<h3>Charged particles gaining speed</h3><div class="formula">qV = ½mv² &nbsp;&nbsp; so &nbsp;&nbsp; v = √(2qV ÷ m)</div>
+<p>This energy method is usually quickest when a particle starts from rest and the question asks for its final speed. If it starts with an initial speed, use qV = ½m(v<sub>f</sub><sup>2</sup> − v<sub>i</sub><sup>2</sup>).</p>
+<p>If a particle enters the field moving sideways, it has constant velocity in its original direction and constant acceleration in the field direction. These motions happen at the same time, producing a curved, parabolic path.</p>
+</section>
+
+<section class="topic" id="energy">
+<div class="tag">Quick reference</div><h2>Electricity quantities and prefixes</h2>
+<table><tr><th>Quantity</th><th>Symbol</th><th>Unit</th><th>Meaning</th></tr>
+<tr><td>Charge</td><td>q</td><td>coulomb (C)</td><td>Amount of electric charge</td></tr>
+<tr><td>Current</td><td>I</td><td>ampere (A)</td><td>Charge flowing each second</td></tr>
+<tr><td>Potential difference</td><td>V</td><td>volt (V)</td><td>Energy transferred per coulomb</td></tr>
+<tr><td>Resistance</td><td>R</td><td>ohm (Ω)</td><td>Opposition to current</td></tr>
+<tr><td>Power</td><td>P</td><td>watt (W)</td><td>Energy transferred each second</td></tr>
+</table>
+<table><tr><th>Prefix</th><th>Meaning</th><th>Example</th></tr><tr><td>milli (m)</td><td>10<sup>−3</sup></td><td>1 mA = 0.001 A</td></tr><tr><td>micro (µ)</td><td>10<sup>−6</sup></td><td>1 µC = 0.000001 C</td></tr><tr><td>nano (n)</td><td>10<sup>−9</sup></td><td>1 nC = 0.000000001 C</td></tr></table>
+</section>
+
+<section class="topic" id="circuits">
+<div class="tag">Part 02 · Direct current</div><h2>Charge, current and voltage</h2>
+<p>Current describes how quickly charge passes a point in a circuit. Conventional current is shown flowing from the positive terminal of a power supply to the negative terminal. Electrons in metal wires drift in the opposite direction.</p>
+<div class="formula">I = Q ÷ t &nbsp;&nbsp; and &nbsp;&nbsp; Q = It</div>
+<p>Current is measured in amperes (A), charge in coulombs (C), and time in seconds (s). One ampere means one coulomb passes each second.</p>
+<p>Voltage is the energy transferred per coulomb: <b>V = E ÷ Q</b>. A battery gives energy to charges; components such as lamps transfer electrical energy into other forms, such as light and thermal energy. Charges are not used up in a circuit.</p>
+<h3>Resistance and Ohm’s law</h3><div class="formula">V = IR &nbsp;&nbsp; · &nbsp;&nbsp; R = V ÷ I &nbsp;&nbsp; · &nbsp;&nbsp; I = V ÷ R</div>
+<p>Resistance describes how strongly a component opposes current. In a metal wire, moving electrons collide with the metal ions in the lattice. These interactions transfer energy to the wire, heating it.</p>
+<p>An <b>ohmic conductor</b> has a straight-line voltage-current relationship at constant temperature: resistance stays constant. A filament lamp is non-ohmic because its filament heats up as current increases, causing its resistance to rise. On a V–I graph with V on the vertical axis and I on the horizontal axis, the gradient is resistance.</p>
+<h3>Electrical power and energy</h3><div class="formula">P = VI &nbsp;&nbsp; · &nbsp;&nbsp; P = I²R &nbsp;&nbsp; · &nbsp;&nbsp; P = V² ÷ R</div>
+<div class="formula">E = Pt</div>
+<p>Power is the rate of energy transfer. Energy is measured in joules (J), power in watts (W), and time in seconds. Choose the power formula that matches the values given.</p>
+<div class="step"><b>Worked example.</b> A 12 V lamp carries 0.50 A.<br>P = VI = 12 × 0.50 = <b>6.0 W</b>.<br>In 15 minutes (900 s), E = Pt = 6.0 × 900 = <b>5400 J</b>.</div>
+<h3>Series circuits</h3>
+<p>In a series circuit there is only one path for charge. The current is the same at every point, the supply voltage is shared between components, and resistances add.</p>
+<div class="formula">R<sub>total</sub> = R₁ + R₂ + R₃ + …</div>
+<p>If another resistor is added in series, total resistance increases. With the same supply voltage, total current decreases. The voltage drops across the components add to the supply voltage.</p>
+<div class="step"><b>Example.</b> 4 Ω and 8 Ω resistors are in series across 12 V.<br>R<sub>total</sub> = 4 + 8 = 12 Ω.<br>I = V/R = 12/12 = 1.0 A.<br>Voltage drops: 4 Ω gets 4 V; 8 Ω gets 8 V. Check: 4 + 8 = 12 V.</div>
+<h3>Parallel circuits</h3>
+<p>In a parallel circuit, components are on separate branches. Each branch has the same voltage as the supply. The total current is the sum of branch currents. Adding another branch gives charge another path, so total resistance decreases and total current increases.</p>
+<div class="formula">1 ÷ R<sub>total</sub> = 1 ÷ R₁ + 1 ÷ R₂ + …</div>
+<div class="step"><b>Example.</b> 6 Ω and 3 Ω resistors are connected in parallel across 12 V.<br>I₁ = 12/6 = 2 A; I₂ = 12/3 = 4 A.<br>Total current = 2 + 4 = <b>6 A</b>.<br>R<sub>total</sub> = V/I = 12/6 = <b>2 Ω</b>.</div>
+<h3>Combination circuits</h3>
+<p>Simplify a mixed circuit one section at a time. First identify resistors that are clearly in parallel or series. Replace a parallel group with its equivalent resistance, then combine any remaining series resistors. Find the total current from the supply, then work backwards to find voltage drops and branch currents.</p>
+<div class="note"><b>Two checks:</b> current entering a junction equals current leaving it; and the voltage drops around a complete loop add to the supply voltage. Do not use the supply voltage across a resistor unless that resistor is directly connected across the supply.</div>
+</section>
+
+<section class="topic" id="magnetism">
+<div class="tag">Part 03 · Electromagnetism</div><h2>Force on a current-carrying conductor</h2>
+<p>A current in a wire creates a magnetic field around the wire. If the wire is placed in another magnetic field, the fields interact and the wire can experience a force. This is called the <b>motor effect</b>.</p>
+<div class="formula">F = BIL</div>
+<ul><li><b>F</b> = force (N)</li><li><b>B</b> = magnetic flux density (T)</li><li><b>I</b> = current (A)</li><li><b>L</b> = length of wire inside the magnetic field (m)</li></ul>
+<p>This form applies when the conductor is at right angles to the magnetic field. The force is zero if the wire is parallel to the field, or if there is no current. A larger field, current or wire length gives a larger force.</p>
+<p>Use the <b>left-hand motor rule</b> to work out direction: first finger = magnetic field (north to south), second finger = conventional current, thumb = force/motion. Keep the three directions at right angles. In a motor coil, forces on opposite sides act in opposite directions and create a turning effect.</p>
+<div class="step"><b>Worked example.</b> A 0.12 m wire carries 3.0 A at right angles to a 0.40 T field.<br>F = BIL = 0.40 × 3.0 × 0.12 = <b>0.144 N</b>.</div>
+<h3>Force on a moving charged particle</h3>
+<p>A moving charge behaves like a current. When it moves at right angles to a magnetic field, it experiences a sideways force.</p>
+<div class="formula">F = Bqv</div>
+<p>Here q is the magnitude of the charge (C) and v is speed (m s<sup>−1</sup>). The direction depends on the charge: use the right-hand/left-hand convention taught in class carefully, remembering that an electron’s force is opposite to the direction for a positive charge moving the same way.</p>
+<p>If the velocity is perpendicular to the field, the force stays at right angles to the motion. It changes the direction of travel, not the speed, so the particle follows a circular path. The magnetic force does no work because it is perpendicular to the movement.</p>
+<div class="formula">Bqv = mv² ÷ r &nbsp;&nbsp; so &nbsp;&nbsp; r = mv ÷ Bq</div>
+<p>This gives the radius of the circular path for a particle moving perpendicular to a uniform magnetic field.</p>
+</section>
+
+<section class="topic" id="induction">
+<div class="tag">Part 04 · Electromagnetic induction</div><h2>Producing an induced voltage</h2>
+<p>An induced voltage appears across a conductor when it moves through a magnetic field and cuts across magnetic field lines. If the circuit is complete, the induced voltage can drive a current. This is the basic idea behind a generator.</p>
+<div class="formula">V = B L v</div>
+<p><b>B</b> is magnetic flux density (T), <b>L</b> is the length of conductor in the field (m), and <b>v</b> is speed (m s<sup>−1</sup>). This relationship applies when the conductor moves at right angles to the field and its length is at right angles to the field as in the standard straight-rod setup.</p>
+<h3>What affects the induced voltage?</h3>
+<ul><li>Stronger magnetic field → greater induced voltage.</li><li>Longer conductor in the field → greater induced voltage.</li><li>Faster movement → greater induced voltage.</li><li>No cutting across the field lines → no induced voltage in this setup.</li></ul>
+<p>The direction of induced current can be found using the generator rule specified by your course. The induced effect acts to oppose the change that produces it (Lenz’s law). In a straight-rod question, carefully identify the field direction and motion direction before deciding the polarity.</p>
+<div class="step"><b>Worked example.</b> A 0.20 m rod moves at 5.0 m s<sup>−1</sup> at right angles through a 0.30 T field.<br>V = BLv = 0.30 × 0.20 × 5.0 = <b>0.30 V</b>.</div>
+</section>
+
+<section class="panel">
+<h2>Formula bank</h2>
+<table><tr><th>Idea</th><th>Relationship</th></tr>
+<tr><td>Uniform electric field</td><td>E = V/d</td></tr><tr><td>Electric force</td><td>F = qE</td></tr>
+<tr><td>Electric potential energy change</td><td>ΔE<sub>p</sub> = qEd = qV</td></tr><tr><td>Particle accelerated from rest</td><td>qV = ½mv²</td></tr>
+<tr><td>Current</td><td>I = Q/t</td></tr><tr><td>Ohm’s law</td><td>V = IR</td></tr>
+<tr><td>Power</td><td>P = VI = I²R = V²/R</td></tr><tr><td>Electrical energy</td><td>E = Pt</td></tr>
+<tr><td>Series resistance</td><td>R<sub>T</sub> = R₁ + R₂ + …</td></tr><tr><td>Parallel resistance</td><td>1/R<sub>T</sub> = 1/R₁ + 1/R₂ + …</td></tr>
+<tr><td>Force on wire</td><td>F = BIL</td></tr><tr><td>Force on moving charge</td><td>F = Bqv</td></tr>
+<tr><td>Radius of charged particle path</td><td>r = mv/Bq</td></tr><tr><td>Induced voltage</td><td>V = BLv</td></tr></table>
+</section>
+
+<section class="panel">
+<h2>Exam habits that earn clearer answers</h2>
+<ul>
+<li>Write the relationship before inserting numbers.</li><li>Convert every value to SI units first: mm → m; µC → C; minutes → seconds.</li>
+<li>Show enough working for a marker to follow your method.</li><li>Include the correct unit with the final value.</li><li>For direction questions, state the direction in words and explain whether the charge is positive or negative.</li>
+<li>For circuit explanations, describe the chain of cause and effect: resistance changes → total resistance changes → current changes (if supply voltage is fixed).</li>
+<li>For magnetic diagrams, label field, current/velocity and force separately.</li>
+</ul>
+</section>
+
+<section class="practice" id="practice">
+<div class="tag">Check your understanding</div><h2>Quick practice</h2>
+<p class="small">Choose an answer for each question, then check your responses. These are revision questions, not official NZQA marking.</p>
+<div class="question"><b>1. Two plates have 120 V across a 3.0 mm gap. What is the field strength?</b>
+<label><input type="radio" name="q1" value="a"> 40 N C⁻¹</label><label><input type="radio" name="q1" value="b"> 4.0 × 10⁴ V m⁻¹</label><label><input type="radio" name="q1" value="c"> 3.6 × 10⁵ V m⁻¹</label><div id="f1" class="feedback"></div></div>
+<div class="question"><b>2. A 2.0 A current flows for 5.0 s. How much charge passes a point?</b>
+<label><input type="radio" name="q2" value="a"> 0.40 C</label><label><input type="radio" name="q2" value="b"> 2.5 C</label><label><input type="radio" name="q2" value="c"> 10 C</label><div id="f2" class="feedback"></div></div>
+<div class="question"><b>3. In a series circuit, what happens to total resistance when another resistor is added?</b>
+<label><input type="radio" name="q3" value="a"> It increases</label><label><input type="radio" name="q3" value="b"> It decreases</label><label><input type="radio" name="q3" value="c"> It stays the same</label><div id="f3" class="feedback"></div></div>
+<div class="question"><b>4. Which formula gives the force on a straight wire at right angles to a magnetic field?</b>
+<label><input type="radio" name="q4" value="a"> F = qE</label><label><input type="radio" name="q4" value="b"> F = BIL</label><label><input type="radio" name="q4" value="c"> P = VI</label><div id="f4" class="feedback"></div></div>
+<div class="question"><b>5. Name two ways to increase the induced voltage in a moving-rod setup.</b>
+<textarea id="q5" rows="2" placeholder="Write your answer here..."></textarea><div id="f5" class="feedback"></div></div>
+<button onclick="checkAnswers()">Check my answers</button>
+<div id="score" class="feedback" aria-live="polite"></div>
+</section>
+<footer>Falisieni NCEA Science Exam Rev Hub · Physics Level 2 · AS91173</footer>
+</main>
+<script>
+function checkAnswers(){
+ const answers={q1:'b',q2:'c',q3:'a',q4:'b'};
+ const explanations={
+ q1:'Correct: 3.0 mm = 0.0030 m, so E = 120 ÷ 0.0030 = 4.0 × 10⁴ V m⁻¹.',
+ q2:'Correct: Q = It = 2.0 × 5.0 = 10 C.',
+ q3:'Correct: series resistances add, so adding another resistor increases total resistance.',
+ q4:'Correct: F = BIL for a wire at right angles to the magnetic field.'
+ };
+ let score=0;
+ for(let i=1;i<=4;i++){
+  const picked=document.querySelector('input[name="q'+i+'"]:checked');
+  const box=document.getElementById('f'+i);
+  if(picked && picked.value===answers['q'+i]){score++;box.className='feedback good';box.textContent=explanations['q'+i];}
+  else{box.className='feedback bad';box.textContent='Not quite. '+explanations['q'+i];}
+ }
+ const response=document.getElementById('q5').value.toLowerCase();
+ const hasField=/stronger|increase.*field|magnetic field/.test(response);
+ const hasSpeed=/faster|speed|quick(er)?/.test(response);
+ const hasLength=/longer|length/.test(response);
+ const ok=(hasField?1:0)+(hasSpeed?1:0)+(hasLength?1:0);
+ const box=document.getElementById('f5');
+ if(ok>=2){score++;box.className='feedback good';box.textContent='Good: you identified at least two valid factors — stronger field, faster movement or a longer conductor.';}
+ else{box.className='feedback bad';box.textContent='Try again: choose two of these — stronger magnetic field, faster movement, or a longer conductor.';}
+ document.getElementById('score').textContent='You identified '+score+' out of 5 answers. Review the explanations and have another go.';
+}
+</script>
+</body></html>
